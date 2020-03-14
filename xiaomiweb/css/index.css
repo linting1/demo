@@ -1,0 +1,570 @@
+/* 分类导航栏categoryList开始  */
+
+.categoryList {
+    width: 1226px;
+    height: 460px;
+}
+
+.categoryList>ul {
+    position: absolute;
+    z-index: 2;
+    padding-top: 15px;
+    width: 234px;
+    height: 440px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.categoryList>ul li {
+    padding-left: 30px;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+}
+
+.categoryList>ul li:hover {
+    background-color: #ff6700;
+}
+
+.categoryList>ul li a {
+    color: #fff;
+}
+
+.categoryList ul li i {
+    float: right;
+    margin-right: 0px;
+    font-family: 'icomoon';
+    color: #fff;
+    font-size: 26px;
+}
+
+.categoryList-item {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 234px;
+    width: 992px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    height: 475px;
+}
+
+.categoryList-item ul {
+    float: left;
+    margin-top: 20px;
+    width: 248px;
+}
+
+.categoryList-item ul li {
+    margin-bottom: 35px;
+}
+
+.categoryList-item ul li img {
+    vertical-align: middle;
+}
+
+.categoryList-item ul li a {
+    color: #666;
+}
+
+
+/* 右边部分 */
+
+.swiper-wrapper {
+    position: relative;
+    width: 1226px;
+    height: 475px;
+    overflow: hidden;
+}
+
+.swiper-wrapper ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.swiper-wrapper ul li {
+    float: left;
+}
+
+.swiper-wrapper ul a img {
+    float: left;
+    width: 1226px;
+}
+
+
+/* 小圆圈 */
+
+.circle {
+    position: absolute;
+    bottom: 28px;
+    right: 20px;
+}
+
+.circle li {
+    float: left;
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    background-color: #333;
+    cursor: pointer;
+}
+
+.circle li:hover {
+    background-color: #ccc;
+}
+
+.circle .circle-current {
+    background-color: #f1f1f1;
+}
+
+
+/* 分类导航栏categoryList结束  */
+
+
+/* 固定导航栏开始 */
+
+.fixedtool {
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    width: 84px;
+    margin-left: 627px;
+    height: 561px;
+}
+
+.fixedtool ul li {
+    height: 92px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #757575;
+}
+
+.fixedtool ul li img {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.hover {
+    display: none;
+}
+
+.goBack {
+    display: none;
+}
+
+
+/* 固定导航栏结束 */
+
+
+/* 服务区service开始 */
+
+.service {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 170px;
+}
+
+.service-fl {
+    float: left;
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+}
+
+.service-fl a {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 4px 0;
+    border-bottom: 1px solid #665e57;
+    border-right: 1px solid #665e57;
+    width: 58px;
+    height: 64px;
+    font-size: 14px;
+    color: #b1adaa;
+    text-align: center;
+}
+
+.service-fl a img {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+}
+
+.service-fr {
+    float: left;
+}
+
+.service-fr li {
+    float: left;
+    margin-left: 14px;
+    width: 316px;
+    height: 170px;
+}
+
+.service-fr li img {
+    width: 100%;
+}
+
+
+/* 服务区service结束 */
+
+
+/* 主体部分开始 */
+
+.main {
+    background-color: #f5f5f5;
+}
+
+
+/* 小米闪购部分 */
+
+.flashbuy {
+    position: relative;
+}
+
+.flashbuy-bd {
+    height: 340px;
+}
+
+.flashbuy-hd {
+    height: 58px;
+    line-height: 58px;
+}
+
+.flashbuy-hd h2 {
+    font-weight: 400;
+}
+
+.seckill {
+    float: left;
+    padding-top: 30px;
+    width: 234px;
+    text-align: center;
+    height: 310px;
+    background-color: #f1eded;
+    border-top: 1px solid #e53935;
+}
+
+.seckillTime {
+    margin-bottom: 15px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #e53935;
+    font-size: 22px;
+}
+
+.countdown span {
+    margin-top: 50px;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #605751;
+}
+
+.flashbuyList {
+    float: right;
+    width: 978px;
+    height: 340px;
+}
+
+.flashbuyList ul {
+    width: 997px;
+}
+
+.flashbuyList ul li {
+    float: left;
+    margin-right: 14px;
+    width: 234px;
+    height: 340px;
+    background-color: #fff;
+    border-top: 1px solid #ffac13;
+}
+
+.flashbuyList ul li a {
+    display: inline-block;
+    width: 234px;
+    height: 340px;
+}
+
+.flashbuyList .content {
+    text-align: center;
+}
+
+.flashbuyList .content .img {
+    margin: 40px auto 0;
+    height: 160px;
+    width: 160px;
+    background-color: blue;
+}
+
+.flashbuyList .content .img img {
+    width: 100%;
+}
+
+.flashbuyList .content h5 {
+    margin: 5px 20px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+
+.flashbuyList .content .desc {
+    margin: 5px 20px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #c9c9c9;
+    font-size: 12px;
+}
+
+#price {
+    display: inline;
+    font-size: 14px;
+    color: #fa6509;
+}
+
+#price del {
+    color: #c9c9c9;
+}
+
+.controlBtn {
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+.controlBtn span {
+    float: left;
+    width: 36px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    font-family: 'icomoon';
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.controlBtn span:hover {
+    color: #fa6509;
+}
+
+
+/* bannerBox部分 */
+
+.bannerBox {
+    margin: 22px auto;
+    /* overflow: hidden; */
+    height: 120px;
+}
+
+.bannerBox img {
+    width: 100%;
+}
+
+
+/* 手机部分 */
+
+.phone-hd {
+    height: 58px;
+    line-height: 58px;
+}
+
+.phone-hd h2 {
+    font-weight: 400;
+}
+
+.phone-hd a {
+    font-size: 16px;
+}
+
+.phone-hd a i {
+    padding: 4px;
+    font-family: 'icomoon';
+    width: 12px;
+    height: 12px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #b0b0b0;
+}
+
+.phone-hd a:hover {
+    color: #fa6509;
+}
+
+.phone-hd a:hover i {
+    background-color: #fa6509;
+}
+
+.bd-content {
+    width: 234px;
+    height: 614px;
+}
+
+.bd-content ul img {
+    width: 100%;
+}
+
+.bd-tab {
+    width: 992px;
+    height: 614px;
+}
+
+.bd-tab ul {
+    width: 1200px;
+}
+
+
+/*过渡写到本身上， 谁做动画，给谁加*/
+
+.bd-tab ul li {
+    overflow: hidden;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    float: left;
+    width: 234px;
+    height: 300px;
+    background-color: #fff;
+    transition: all .2s;
+}
+
+.bd-tab .product {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.bd-tab .product img {
+    width: 100%;
+}
+
+.bd-tab h3 {
+    margin: 5px auto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.bd-tab p {
+    margin-bottom: 15px;
+    color: #b0b0b0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.bd-tab .price {
+    font-size: 14px;
+    text-align: center;
+    color: #fa6509;
+}
+
+
+/*我们鼠标经过图片 往上走 8px*/
+
+.bd-tab ul li:hover {
+    margin-bottom: 2px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2)
+}
+
+
+/* 家电部分 */
+
+.electric-hd {
+    height: 58px;
+    line-height: 58px;
+}
+
+.electric-hd h2 {
+    font-weight: 400;
+}
+
+.electric-hd ul li {
+    margin-left: 25px;
+    float: left;
+    height: 45px;
+    cursor: pointer;
+}
+
+.electric-active {
+    border-bottom: 2px solid #fa6509;
+    color: #fa6509;
+}
+
+.electric-bd ul li {
+    overflow: hidden;
+    margin-bottom: 14px;
+    width: 234px;
+    height: 300px;
+    transition: all .2s;
+}
+
+.electric-bd ul li:hover {
+    margin-top: 2px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2)
+}
+
+.bd-tab .more {
+    margin-left: 14px;
+    margin-bottom: 15px;
+    width: 234px;
+    height: 145px;
+}
+
+.more-text {
+    margin: 20px;
+    margin-top: 45px;
+    float: left;
+    width: 70px;
+    height: 94px;
+    text-align: center;
+}
+
+.more-img {
+    margin-right: 25px;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    float: right;
+}
+
+.more-figure {
+    float: left;
+    margin: 20px;
+    margin-top: 50px;
+    height: 94px;
+    width: 100px;
+}
+
+.more-figure h3 {
+    font-size: 18px;
+}
+
+.more i {
+    display: inline-block;
+    margin-top: 50px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'icomoon';
+    font-weight: 700;
+    font-size: 26px;
+    color: #fa6509;
+    border: 3px solid #fa6509;
+}
+
+
+/* 主体部分结束 */

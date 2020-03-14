@@ -1,0 +1,90 @@
+body {
+    background-color: #F9F9F9;
+}
+
+.content {
+    margin: 0 auto;
+    width: 854px;
+    height: 556px;
+    background-color: #fff;
+}
+
+.h-logo {
+    padding-top: 20px;
+    width: 854px;
+    height: 68px;
+}
+
+.h-logo a {
+    display: block;
+    font-size: 0;
+    margin: auto;
+    width: 48px;
+    height: 48px;
+    background-color: #F56600;
+    background-image: url('../img/mi-logo.png');
+}
+
+
+/* 中间部分 */
+
+.title {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.regbox {
+    margin: 30px auto;
+    width: 332px;
+    height: 320px;
+}
+
+.regbox form input {
+    margin: 5px auto;
+    padding: 13px;
+    width: 310px;
+    height: 22px;
+    border: none;
+    border: 1px solid #ccc;
+    color: #9B9B9B;
+}
+
+.regbox form button {
+    margin: 15px 0;
+    width: 336px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    background-color: #FF6700;
+    color: #fff;
+}
+
+.privacy_box {
+    margin: 0 auto;
+    width: 786px;
+    height: 39px;
+    text-align: center;
+}
+
+.privacy_box p {
+    font-size: 14px;
+}
+
+.privacy_box a {
+    color: #333;
+    font-weight: 700;
+}
+
+
+/* 尾部 */
+
+.f-panel {
+    text-align: center;
+    padding-top: 100px;
+    height: 80px;
+    font-size: 14px;
+}

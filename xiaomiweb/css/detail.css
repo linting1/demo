@@ -1,0 +1,359 @@
+/* 面包屑导航 */
+
+.crumb_wrap {
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    margin-bottom: 80px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+}
+
+.crumb_wrap_title {
+    width: 150px;
+}
+
+.crumb_wrap_title h3 {
+    float: left;
+    margin-right: 5px;
+    font-weight: 400;
+}
+
+.crumb_wrap_title a {
+    padding-left: 5px;
+    font-size: 14px;
+    border-left: 1px solid #333;
+}
+
+.crumb_wrap_summarize li {
+    margin-left: 5px;
+    float: left;
+    font-size: 14px;
+}
+
+.crumb_wrap_summarize a:hover {
+    color: #ff6700;
+}
+
+.crumb_current {
+    color: #ff6700;
+}
+
+
+/* 是否登录页面 */
+
+.main-login {
+    position: absolute;
+    overflow: hidden;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.main-login .login {
+    margin: 20px;
+    color: #ff6700;
+}
+
+
+/* 产品介绍模块 */
+
+.preview_wrap {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.preview_wrap ul li {
+    width: 560px;
+    height: 560px;
+}
+
+.preview_wrap ul li img {
+    width: 100%;
+}
+
+.allow-l {
+    left: 0;
+}
+
+.allow-r {
+    right: 40px;
+}
+
+
+/* 小圆圈  */
+
+.circle {
+    position: absolute;
+    z-index: 99;
+    left: 133px;
+    bottom: 43px;
+}
+
+.circle li {
+    float: left;
+    margin: 3px;
+    width: 50px;
+    height: 2px;
+    background-color: #ccc;
+}
+
+#circle-current {
+    background-color: #81A6C9;
+}
+
+
+/* 右边详细 */
+
+.itemInfo_wrap {
+    padding-top: 15px;
+    width: 606px;
+}
+
+.itemInfo_wrap h2 {
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+}
+
+.news {
+    width: 600px;
+}
+
+.news p {
+    margin-top: 15px;
+    color: #ff6700;
+}
+
+.news span {
+    color: #C2B0B0;
+}
+
+.appointment {
+    margin-top: 15px;
+    padding: 5px 15px;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    background-color: #ff6700;
+}
+
+.summary_price {
+    padding-left: 25px;
+    background-color: #F9F9FA;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    color: #ff6700;
+}
+
+.summary_area {
+    margin: 30px 0;
+    padding-left: 20px;
+    height: 104px;
+    line-height: 104px;
+    color: #333;
+    background-color: #FAFAFA;
+    border: 1px solid #95BADD;
+}
+
+.address-info i {
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+
+#address-change {
+    cursor: pointer;
+    color: #ff6700;
+}
+
+.choose-version,
+.choose-color {
+    font-size: 18px;
+    color: #333;
+}
+
+.choose-version ul,
+.choose-color ul {
+    height: 119px;
+}
+
+.choose-version ul li,
+.choose-color ul li {
+    float: left;
+    margin: 15px 0 0 3px;
+    width: 298px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #E0E0E0;
+}
+
+.choose-version ul li a,
+.choose-color ul li a {
+    display: inline-block;
+    width: 296px;
+}
+
+.name {
+    color: #333;
+}
+
+.price {
+    margin-left: 20px;
+    color: #B0B0B0;
+}
+
+#choose-current {
+    border: 1px solid #ff6700;
+}
+
+.choose-color ul li img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.choose-protect {
+    margin: 20px 0;
+}
+
+.protect-hd {
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.protect-hd .fl {
+    font-size: 18px;
+}
+
+.protect-hd .fr a {
+    font-size: 14px;
+    color: #ff6700;
+}
+
+.protect-bd {
+    position: relative;
+}
+
+.protect-bd ul li {
+    padding: 30px 20px;
+    border: 1px solid #E0E0E0;
+}
+
+.protect-bd ul li img {
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.protect-bd ul li div {
+    display: inline-block;
+}
+
+.desc {
+    margin: 5px 0;
+    color: #B0B0B0;
+    font-size: 14px;
+}
+
+.agreement {
+    width: 370px;
+    font-size: 14px;
+}
+
+.agreement a {
+    color: #ff6700;
+}
+
+.price1 {
+    position: absolute;
+    right: 19px;
+    bottom: 32px;
+}
+
+
+/* 总价 */
+
+.pro-list {
+    padding: 30px;
+    width: 546px;
+    height: 110px;
+    line-height: 22px;
+    background-color: pink;
+    font-size: 14px;
+}
+
+.total {
+    margin-top: 20px;
+    color: #ff6700;
+    font-size: 22px;
+}
+
+
+/* 立即预约 */
+
+.buy,
+.like {
+    display: inline-block;
+    margin: 20px 0;
+    width: 300px;
+    height: 54px;
+    line-height: 54px;
+    color: #fff;
+    text-align: center;
+    background-color: #ff6700;
+    cursor: pointer;
+}
+
+.like {
+    width: 140px;
+    height: 54px;
+    line-height: 54px;
+    background-color: #989898;
+    color: #fff;
+}
+
+.buy:hover {
+    background-color: #FF5400;
+}
+
+.like:hover {
+    background-color: #8A838A;
+}
+
+
+/* 详情 */
+
+.details {
+    border-top: 1px solid #DDD;
+}
+
+.selection-tab {
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+}
+
+.selection-tab li {
+    display: inline-block;
+    margin: auto 15px;
+}
+
+.active {
+    color: #ff6700;
+}
+
+.selection-box img {
+    width: 100%;
+}

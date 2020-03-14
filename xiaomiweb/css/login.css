@@ -1,0 +1,169 @@
+/* 头部 */
+
+.h-panel {
+    height: 98px;
+    line-height: 98px;
+}
+
+.h-logo {
+    height: 98px;
+    width: 200px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.h-logo a {
+    display: block;
+    height: 98px;
+}
+
+
+/* 中间部分 */
+
+.login-ad {
+    height: 588px;
+    background: url('../upload/register-ad.jpg') no-repeat top center;
+}
+
+.w {
+    position: relative;
+}
+
+
+/* 登录框 */
+
+.register {
+    position: absolute;
+    top: 30px;
+    left: 750px;
+    width: 410px;
+    height: 555px;
+    background-color: #fff;
+}
+
+.rg-hd {
+    padding: 27px 0;
+    width: 410px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.rg-hd a {
+    font-size: 24px;
+    color: #666;
+}
+
+.rg-hd .active {
+    color: #FF6700;
+}
+
+.rg-hd span {
+    display: inline-block;
+    margin: 0 20px;
+    width: 2px;
+    height: 32px;
+    background-color: #ccc;
+}
+
+.rg-bd {
+    padding: 10px 30px;
+    height: 410px;
+}
+
+.rg-bd form input {
+    margin: 5px auto;
+    padding: 13px;
+    width: 310px;
+    height: 22px;
+    border: none;
+    border: 1px solid #ccc;
+    color: #9B9B9B;
+}
+
+.rg-bd form button {
+    margin: 15px 0;
+    width: 336px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    background-color: #FF6700;
+    color: #fff;
+}
+
+.other-method {
+    width: 336px;
+    height: 40px;
+}
+
+.other-method a {
+    color: #999;
+}
+
+.other-method .phone a {
+    color: #FF6700;
+}
+
+.links {
+    margin-top: 100px;
+    text-align: center;
+    color: #999;
+}
+
+.links-icon {
+    margin-top: 7px;
+    height: 40px;
+}
+
+.links-icon a {
+    display: inline-block;
+    margin: 7px 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #0288D1;
+}
+
+.links-icon a i {
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    width: 17px;
+    height: 17px;
+    background: url(../img/icons_type.png) no-repeat -20px 0;
+}
+
+.links-icon .wb {
+    background-color: #D32F2F;
+}
+
+.links-icon .wb i {
+    background-position: -38px 0;
+}
+
+.links-icon .zfb {
+    background-color: #21B5F0;
+}
+
+.links-icon .zfb i {
+    background-position: -60px 0;
+}
+
+.links-icon .wx {
+    background-color: #00D20D;
+}
+
+.links-icon .wx i {
+    background-position: -85px 0;
+}
+
+
+/* 尾部 */
+
+.f-panel {
+    text-align: center;
+    padding-top: 100px;
+    height: 80px;
+    font-size: 14px;
+}

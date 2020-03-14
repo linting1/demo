@@ -1,0 +1,408 @@
+/* 公共样式 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 字体图标 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iconfont {
+    font-family: 'icomoon';
+}
+
+
+/* 版心 */
+
+.w {
+    margin: 0 auto;
+    width: 1226px;
+}
+
+
+/* shortcut快速导航栏 开始*/
+
+.shortcut {
+    background-color: #333;
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.shortcut-fl,
+.shortcut-fr {
+    margin-top: 8px;
+    height: 13px;
+    line-height: 13px;
+}
+
+.shortcut-fl li,
+.shortcut-fr li {
+    float: left;
+}
+
+.shortcut-fl li::after,
+.shortcut-fr li::after {
+    content: "|";
+    margin: 0 8px;
+}
+
+.shortcut-fl li a,
+.shortcut-fr li a {
+    color: #b0b0b0;
+}
+
+.shortcut-fl li a:hover {
+    color: #fff;
+}
+
+.shopcar {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #424242;
+}
+
+.shopcar i {
+    font-family: 'icomoon';
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+.shopcar a {
+    color: #b0b0b0;
+}
+
+
+/* shortcut快速导航栏  结束*/
+
+
+/* 头部header开始 */
+
+.header {
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+/* logo部分 */
+
+.logo {
+    position: relative;
+    overflow: hidden;
+    margin-top: 25px;
+    background-color: #ff6700;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.logo a {
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    background: url('../img/mi-logo.png') no-repeat 50% 50%;
+    z-index: 1;
+    transition: all .2s;
+    font-size: 0;
+}
+
+.logo a::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 55px;
+    width: 55px;
+    margin-left: -55px;
+    background: url('../img/mi-home.png') no-repeat 50% 50%;
+}
+
+.logo a:hover {
+    transform: translateX(55px);
+}
+
+
+/* hotwords部分 */
+
+.hotwords {
+    position: relative;
+}
+
+.hotwords-nav {
+    margin-left: 270px;
+}
+
+.hotwords-item {
+    display: none;
+    position: absolute;
+    top: 101px;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    z-index: 999;
+}
+
+.hotwords-item ul li {
+    float: left;
+    width: 198px;
+    height: 240px;
+}
+
+.hotwords-item .product {
+    width: 198px;
+    height: 120px;
+    text-align: center;
+    margin-top: 40px;
+    border-left: 1px solid #e0e0e0;
+    ;
+}
+
+.hotwords-item .product img {
+    height: 100%;
+}
+
+.hotwords-item .price {
+    font-size: 14px;
+    text-align: center;
+    color: #fa6509;
+}
+
+.hotwords-item h3 {
+    margin: 0 auto;
+    margin-top: -20px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.hotwords-item p {
+    margin-bottom: 15px;
+    color: #b0b0b0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.hotwords-nav>li {
+    float: left;
+    margin-right: 25px;
+}
+
+.hotwords-nav>li a:hover {
+    color: #ff6700;
+}
+
+.search {
+    width: 260px;
+}
+
+.search-text {
+    display: inline-block;
+    padding: 5px 30px 0;
+    width: 150px;
+    height: 31px;
+    outline: 0;
+    border: 1px solid #e0e0e0;
+}
+
+.search-submit {
+    margin-left: -5px;
+    margin-top: -1px;
+    width: 40px;
+    height: 38px;
+    outline: 0;
+    border: 0;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'icomoon';
+}
+
+
+/* 轮播图左右侧按钮 */
+
+.allow-l,
+.allow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 41px;
+    height: 70px;
+    z-index: 999;
+    line-height: 70px;
+    font-family: 'icomoon';
+    font-size: 30px;
+    color: #ccc;
+}
+
+.allow-l:hover,
+.allow-r:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, .6);
+}
+
+.allow-l {
+    left: 234px;
+}
+
+.allow-r {
+    right: 0;
+}
+
+
+/* 头部header结束 */
+
+
+/* footer部分 */
+
+.footer {
+    background-color: #fff;
+    height: 272px;
+}
+
+.footer-service {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-service ul {
+    padding-top: 27px;
+    height: 25px;
+}
+
+.footer-service li {
+    float: left;
+    width: 243px;
+}
+
+.footer-service li a {
+    margin-right: 40px;
+    color: #616161;
+    font-size: 16px;
+}
+
+.footer-service li span {
+    color: #ccc;
+}
+
+.footer-service li a i {
+    font-family: 'icomoon';
+    color: #616161;
+    font-size: 18px;
+}
+
+.footer-service li a:hover {
+    color: #ff6700;
+}
+
+.footer-links {
+    margin-top: 40px;
+    width: 1226px;
+    height: 192px;
+}
+
+.footer-links dl {
+    float: left;
+    width: 150px;
+    height: 112px;
+}
+
+.footer-links dd {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #424242;
+}
+
+.footer-links dt {
+    margin: 10px 0;
+    font-size: 12px;
+    color: #757575;
+}
+
+.contact {
+    width: 320px;
+    height: 112px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.contact .phone {
+    color: #ff6700;
+    font-size: 20px;
+}
+
+.contact a {
+    margin-top: 10px;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+}
+
+.contact a:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+
+/* info部分 */
+
+.info {
+    padding-top: 30px;
+    height: 230px;
+    background-color: #f5f5f5;
+}
+
+.info-text {
+    height: 130px;
+}
+
+.info-logo {
+    float: left;
+    margin-right: 8px;
+    width: 57px;
+    height: 57px;
+    background: url('../img/mi-logo.png') no-repeat;
+    background-color: #ff6700;
+    font-size: 0;
+}
+
+.info-text p {
+    float: left;
+    width: 1159px;
+    font-size: 12px;
+}
+
+.equity {
+    color: #b0b0b0;
+}
+
+.info-slogan {
+    width: 267px;
+    height: 19px;
+    background: url('../img/slogan.png') no-repeat;
+    font-size: 0;
+}
